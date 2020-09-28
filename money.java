@@ -7,7 +7,7 @@ public class Money
     double yrInterest = 0;
     while (!(p >= d)) // while the princ isn't desired amount
     {
-    years++; // interator
+    years++; // iterator
     yrInterest = (p * i); // calc interest for year.
     taxVal = tax * yrInterest; // calc tax amount to be - from p
     p += yrInterest - taxVal;
